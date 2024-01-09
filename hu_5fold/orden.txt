@@ -1,0 +1,10 @@
+ 'LogisticRegression': LogisticRegression(),
+    'GaussianNB': GaussianNB(),
+    'KNeighborsClassifier': KNeighborsClassifier(),
+    'DecisionTreeClassifier': DecisionTreeClassifier(),
+    'SVC_linear': SVC(kernel='linear', probability=True),
+    'SVC_poly': SVC(kernel='poly', probability=True),
+    'SVC_rbf': SVC(kernel='rbf', probability=True),
+    'SVC_sigmoid': SVC(kernel='sigmoid', probability=True),
+    'RandomForestClassifier': RandomForestClassifier(),
+    'GradientBoostingClassifier': GradientBoostingClassifier()
